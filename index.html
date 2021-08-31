@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<link href="./css/styles.css" rel="stylesheet">
+    <title>My Book club!</title>
+  </head>
+  <body>
+<!-- Navbar starts here -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">schedule</a>
+          </li>
+                    <li class="nav-item">
+            <a class="nav-link Join Us" href="#" tabindex="-1" aria-disabled="true">Join Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- Navbar ends here -->
+
+<!--Book Listing start here-->
+<section class=" container">
+    <h4>Book Listing</h4>
+    <div class="row">
+        <!--start book 1-->
+        <div class="col">
+            <div class="card" style="width: 15rem;">
+                <img src="./images/book-1.webp" class="card-img-top" alt="book 1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+              <!--end book 1-->
+              <!--start book2-->
+              <div class="col">
+              <div class="card" style="width: 15rem;">
+                <img src="./images/book-2.webp" class="card-img-top" alt="book 2">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div> 
+                </div>
+              </div>
+              <!--end book 2-->
+              <!--start book 3-->
+              <div class="col">
+              <div class="card" style="width: 15rem;">
+                <img src="./images/book-3.webp" class="card-img-top" alt="book 3">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                </div>
+              </div>
+               <!--end book 3-->
+               <!--start book 4-->
+               <div class="col">
+               <div class="card" style="width: 15rem;">
+                <img src="./images/book-4.webp" class="card-img-top" alt="book 4">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                </div>
+              </div>
+              <!--end book 4-->
+            </div>
+</section>
+               <!-- end book listing-->
+
+
+<!-- Schedule starts here -->
+<section class="container">
+    <h4>Schedule</h4>
+    <div class="row">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Date</th>
+                <th scope="col">Book-author</th>
+                <th scope="col">Venue</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Geranemo Stilthon</td>
+                <td>G.Stilthon</td>
+                <td>@Zoom</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Bearable</td>
+                <td>Paul Jennings</td>
+                <td>@Zoom</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Al-chemist</td>
+                <td>Shakespear</td>
+                <td>@Zoom</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</section>
+<!-- Schedule ends here -->
+
+
+<!-- Join us starts here -->
+<section class="container">
+    <h4>Join Us</h4>
+    <div class="row">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Full Name</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Email address</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+</section>
+<!-- Join us ends here -->
+
+<!-- Footer starts here -->
+<footer class="footer text-center">
+    Copyright 2021.@Created by Shumaila Kashif.
+</footer>
+<!-- Footer ends here -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
